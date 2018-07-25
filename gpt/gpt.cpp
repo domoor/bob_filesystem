@@ -1,6 +1,6 @@
 #include <stdio.h>		// puts(), printf(), fprintf()
 #include <stdint.h>		// uint
-#include "parse_fs.h"	// struct mbr, gpt, macro, Etc...
+#include "parse_fs.h"		// struct mbr, gpt, macro, Etc...
 
 int main(int argc, char **argv)
 {
