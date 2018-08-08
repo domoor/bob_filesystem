@@ -2,15 +2,15 @@
 #include <WinNls.h>
 #include <algorithm>	// replace
 
-#include <stdio.h>		// puts(), printf(), fprintf()
-#include <cstdint>		// uint
-#include <malloc.h>		// malloc
-#include <string>		// string
+#include <stdio.h>	// puts(), printf(), fprintf()
+#include <cstdint>	// uint
+#include <malloc.h>	// malloc
+#include <string>	// string
 #include "parse_fs.h"	// struct mbr, gpt, macro, Etc...
 
 using namespace std;
 
-#define JBC			"\xeb\x58\x90"	// jump boot code(eb 58 90)
+#define JBC		"\xeb\x58\x90"		// jump boot code(eb 58 90)
 #define FAT32_TYPE	"FAT32   "		// File System Type(FAT32)
 
 int main(int argc, char **argv)
